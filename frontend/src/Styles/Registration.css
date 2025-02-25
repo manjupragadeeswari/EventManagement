@@ -1,0 +1,121 @@
+
+  /* Card container */
+  .card {
+    width: 500px; /* Increased width */
+    border-radius: 15px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    background: white;
+    padding: 30px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: scale(1.02);
+  }
+  
+  /* Form title */
+  h2 {
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+  }
+  
+  /* Form group (label + input side by side) */
+  .form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  .form-outline {
+    margin-bottom: 20px; /* Adjust value to increase space */
+  }
+  
+  
+  .form-label {
+    font-weight: 500;
+    color: #555;
+    width: 30%; /* Adjusts label width */
+    text-align: right;
+    margin-right: 15px;
+  }
+  
+  /* Input fields */
+  .form-control {
+    width: 65%;
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .form-control:focus {
+    border-color: #ff758c;
+    box-shadow: 0px 0px 8px rgba(255, 117, 140, 0.4);
+  }
+  
+  /* Error messages */
+  .text-error {
+    color: #d9534f;
+    font-size: 14px;
+    display: block;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  /* Register button */
+  .btn-success {
+    background: linear-gradient(to right, #ff4b91, #ff2b5e);
+    border: none;
+    padding: 12px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 8px;
+    transition: background 0.3s ease-in-out;
+    color: white;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .btn-success:hover {
+    background: linear-gradient(to right, #ff2b5e, #ff4b91);
+  }
+  
+  /* Login link */
+  .text-muted {
+    text-align: center;
+    margin-top: 15px;
+  }
+  
+  .text-muted a {
+    color: #ff4b91;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .text-muted a:hover {
+    color: #ff2b5e;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .card {
+      width: 90%;
+      padding: 20px;
+    }
+    .form-group {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .form-label {
+      width: 100%;
+      text-align: left;
+      margin-bottom: 5px;
+    }
+    .form-control {
+      width: 100%;
+    }
+  }
+  

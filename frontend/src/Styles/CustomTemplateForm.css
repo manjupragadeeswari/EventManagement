@@ -1,0 +1,93 @@
+/* Full-page wrapper for background color */
+.full-page-wrapper {
+  background-color: #fff0f3; /* Light blue */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Back button styling */
+.back-btn {
+  background-color: #ffb3c1;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px; /* Adds spacing before the form */
+  align-self: flex-start; /* Aligns the back button to the left */
+}
+
+.back-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Custom template container with reduced size */
+.custom-template-container {
+  background-color: #e2d4d6;
+  padding: 30px;
+  width: 400px; /* Reduced size */
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2 {
+  margin-bottom: 15px;
+  font-size: 22px;
+  text-align: center;
+}
+
+.message {
+  color: green;
+  font-size: 14px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/* Styling for form elements */
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+label {
+  font-size: 14px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+/* Submit button */
+button[type="submit"] {
+  background-color: #ed8497;
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button[type="submit"]:hover {
+  background-color: #e9b3bd;
+  color:black
+}

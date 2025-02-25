@@ -1,0 +1,63 @@
+.content {
+    width: 100%;
+    height: auto;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    /* border-radius: 15px; */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+    justify-content: center; /* Center content vertically */
+ 
+}
+
+/* Styling for Heading */
+.content-heading {
+  margin-top: 10px;
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+/* Styling for Paragraphs */
+.content-text {
+    font-size: 1.4rem;
+    color: #555;
+    margin: 15px 30px;
+}
+
+/* Button Styling */
+.get-started-btn {
+    background: #ff6f61;
+    color: white;
+    font-size: 1.2rem;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 170px;
+}
+
+/* Hover effect */
+.get-started-btn:hover {
+    background: #d9534f;
+}
+
+.footer {
+    width: 100%;
+    text-align: center;
+    padding: 15px 0;
+    background-color: #ff4d6d; /* Dark background for contrast */
+    color: white;
+    font-size: 14px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}

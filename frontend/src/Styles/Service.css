@@ -1,0 +1,100 @@
+
+
+/* Services Page */
+.services-page {
+  background-color: #ece5e7;
+  min-height: 100vh; /* Full height of the viewport */
+  padding-top: 10px;
+  width:100% /* Adjust padding to account for navbar height */
+}
+
+/* Services Header */
+.services-header {
+  padding: 5px;
+  
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+/* Services Description */
+.services-description {
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-bottom: 40px; /* Increased bottom margin */
+  font-size: 1.1rem;
+  text-align: center;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* Services Row */
+.services-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin: 30px 90px;
+ 
+  padding: 0 15px; /* Ensure padding inside the row */
+}
+
+/* Service Card */
+.service-card {
+  width: 100%;
+  max-width: 350px;
+  margin: 0 auto;
+  background-color: #e7cdcd;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.card{
+  background-color: rgb(224, 211, 195);
+}
+/* Service Card Hover Effect */
+.service-card:hover {
+  transform: scale(1.05);
+}
+
+/* Service Card Title */
+.service-card h4 {
+  font-size: 1.8rem;
+  color: #8e44ad;
+  margin-bottom: 15px;
+}
+
+/* Service Card Text */
+.service-card p {
+  font-size: 1rem;
+  color: #333;
+  line-height: 1.5;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .services-header {
+    font-size: 2.4rem;
+  }
+
+  .services-description {
+    font-size: 1rem;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .services-row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .service-card {
+    width: 90%; /* Full width on smaller screens */
+    margin-bottom: 20px;
+  }
+}

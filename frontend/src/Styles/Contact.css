@@ -1,0 +1,74 @@
+
+
+/* Make the contact section take the full height */
+.contact-container {
+  width: 100%;
+  min-height: 100vh; /* Full viewport height */
+  display: flex;
+  flex-direction: column;
+  align-items: center;  /* Center content horizontally */
+  justify-content: flex-start; /* Align content to the top */
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: rgb(223, 219, 215);
+}
+
+/* Header and subheading */
+.contact-header {
+  margin-top: 10px;
+  font-size: 40px;
+}
+
+.contact-subheading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Contact Row for side-by-side layout */
+.contact-row {
+  display: flex;
+  justify-content: space-between;  /* Ensure space between the elements */
+  gap: 50px;
+  flex-wrap: wrap; /* Allows wrapping on smaller screens */
+  width: 100%;
+  margin-top: 30px;
+  /* Remove any unwanted margin or padding */
+  margin: 0;
+  background-color: #ecd8d8;
+}
+.card-content h4{
+  padding:10px;
+}
+
+/* Contact Card */
+.contact-card, .contact-form-card {
+  background-color: #eadcdc;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  flex: 1; /* Ensures they take equal space */
+  max-width: 48%; /* Keeps them side by side */
+  margin-bottom: 30px;
+  border:1px solid #847f7f
+  
+}
+
+/* Feedback Form */
+.contact-form-card form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Responsive Design: Stack the cards on smaller screens */
+@media (max-width: 768px) {
+  .contact-row {
+    flex-direction: column; /* Stack address and form */
+    align-items: center;
+  }
+
+  .contact-card, .contact-form-card {
+    width: 90%; /* Full width on smaller screens */
+    margin-bottom: 20px;
+  }
+}

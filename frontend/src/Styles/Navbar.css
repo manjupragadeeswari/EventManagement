@@ -1,0 +1,88 @@
+/* General styling for the navbar */
+.navbar {
+    background-color: #ff4d6d;
+    padding: 10px 20px;
+    color: white;
+    display: flex;
+    /* justify-content: space-between;  */
+    align-items: center;
+    width: 100%;
+    height: 110px;
+    /* position: fixed; */
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Aligns logo to the left */
+}
+
+.logo {
+    width: 120px; /* Adjust the size of the logo */
+    height: auto;
+    margin-left: 30px; /* Space from the left */
+}
+
+.navbar-links {
+    display: flex;
+    justify-content: center; /* Centers the links */
+    flex-grow: 1; /* Make links take available space */
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    padding: 0 40px; /* Adds space between the links */
+    font-size: 20px;
+}
+
+.nav-link:hover {
+    color: #800f2f;
+}
+
+/* Search Bar styling */
+.search-form {
+    display: flex;
+    gap:10px;
+    align-items: center;
+    justify-content: flex-end; 
+    margin-left: auto;/* Aligns the search bar to the right */
+}
+
+.search-input {
+    padding: 5px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: none;
+    width: 200px; 
+  margin-top:5px;
+ 
+  height:35px;
+    /* Adjust the width of the search input */
+}
+
+.search-button {
+    height:35px;
+    margin-bottom: 15px;
+    background-color: #800f2f;
+    color: white;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px; /* Space between the input and the button */
+}
+
+.search-button:hover {
+    background-color: #bf6a82;
+}

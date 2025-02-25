@@ -1,0 +1,190 @@
+{
+    "templates": [
+      {
+        "id": "1",
+        "name": "Elegant Wedding Invitation",
+        "category": "Wedding",
+        "image": "/Images/Templates/Elegant floral.jpeg",
+        "description": "An elegant wedding invitation template with floral designs."
+      },
+      {
+        "id": "2",
+        "name": "Rustic Wedding Invite",
+        "category": "Wedding",
+        "image": "/Images/Templates/rustic wedding.jpeg",
+        "description": "A rustic-themed wedding invitation with vintage design."
+      },
+      {
+        "id": "3",
+        "name": "Modern Wedding Invitation",
+        "category": "Wedding",
+        "image": "/Images/Templates/Modern wedding.jpeg",
+        "description": "A clean, minimalistic wedding invitation for modern couples."
+      },
+      {
+        "id": "4",
+        "name": "Vintage Floral Wedding Invite",
+        "category": "Wedding",
+        "image": "/Images/Templates/Vintage Floral.jpeg",
+        "description": "A vintage floral wedding invitation perfect for classic weddings."
+      },
+      {
+        "id": "5",
+        "name": "Beach Wedding Invitation",
+        "category": "Wedding",
+        "image": "/Images/Templates/Beach wedding.jpeg",
+        "description": "A beach-themed wedding invitation with ocean elements."
+      },
+      {
+        "id": "6",
+        "name": "Business Conference Invite",
+        "category": "Corporate Event",
+        "image": "/Images/Templates/corporate1.webp",
+        "description": "A professional business conference invitation."
+      },
+      {
+        "id": "7",
+        "name": "Networking Event Invitation",
+        "category": "Corporate Event",
+        "image": "/Images/Templates/corporate2.png",
+        "description": "An invitation template for corporate networking events."
+      },
+      {
+        "id": "8",
+        "name": "Annual Gala Invitation",
+        "category": "Corporate Event",
+        "image": "/Images/Templates/Annual gala.jpg",
+        "description": "A formal invitation template for corporate galas."
+      },
+      {
+        "id": "9",
+        "name": "Corporate Workshop Invite",
+        "category": "Corporate Event",
+        "image": "/Images/Templates/corporate4.jpeg",
+        "description": "An invitation for corporate workshops and training events."
+      },
+      {
+        "id": "10",
+        "name": "Product Launch Invite",
+        "category": "Corporate Event",
+        "image": "/Images/Templates/corporate5.jpeg",
+        "description": "A sleek template for product launch events."
+      },
+      {
+        "id": "11",
+        "name": "Fun Birthday Party Invite",
+        "category": "Birthday Party",
+        "image": "/Images/Templates/birthday1.jpeg",
+        "description": "A fun birthday invitation with bright colors and playful design."
+      },
+      {
+        "id": "12",
+        "name": "Superhero Birthday Invitation",
+        "category": "Birthday Party",
+        "image": "/Images/Templates/birthday2.jpeg",
+        "description": "A superhero-themed birthday invitation for kids."
+      },
+      {
+        "id": "13",
+        "name": "Vintage Birthday Invitation",
+        "category": "Birthday Party",
+        "image": "/Images/Templates/bithday3.jpeg",
+        "description": "A vintage-style invitation for an elegant birthday party."
+      },
+      {
+        "id": "14",
+        "name": "Princess Birthday Invitation",
+        "category": "Birthday Party",
+        "image": "/Images/Templates/birthday4.jpeg",
+        "description": "A princess-themed invitation for a young girl’s birthday."
+      },
+      {
+        "id": "15",
+        "name": "Minimal Birthday Invite",
+        "category": "Birthday Party",
+        "image": "/Images/Templates/birthday5.jpg",
+        "description": "A minimal and clean design for a modern birthday celebration."
+      },
+      {
+        "id": "16",
+        "name": "Graduation Ceremony Invitation",
+        "category": "Graduation",
+        "image": "/Images/Templates/graduation1.jpeg",
+        "description": "A formal graduation ceremony invitation."
+      },
+      {
+        "id": "17",
+        "name": "Class of 2023 Graduation Invite",
+        "category": "Graduation",
+        "image": "/Images/Templates/graduation2.jpeg",
+        "description": "A celebratory invitation for the class of 2023 graduation."
+      },
+      {
+        "id": "18",
+        "name": "Graduation Party Invite",
+        "category": "Graduation",
+        "image": "/Images/Templates/graduation3.jpeg",
+        "description": "A festive invitation for a graduation party celebration."
+      },
+      {
+        "id": "19",
+        "name": "Academic Excellence Graduation Invite",
+        "category": "Graduation",
+        "image": "/Images/Templates/graduation4.jpeg",
+        "description": "A sophisticated invitation for an academic excellence ceremony."
+      },
+      {
+        "id": "20",
+        "name": "Funny Graduation Invitation",
+        "category": "Graduation",
+        "image": "/Images/Templates/graduation5.jpeg",
+        "description": "A humorous graduation invitation for a lighthearted event."
+      },
+      {
+        "id": "21",
+        "name": "Charity Gala Invitation",
+        "category": "Charity Event",
+        "image": "/Images/Templates/charity1.jpeg",
+        "description": "An elegant invitation template for charity galas."
+      },
+      {
+        "id": "22",
+        "name": "Fundraising Event Invite",
+        "category": "Charity Event",
+        "image": "/Images/Templates/charity2.jpeg",
+        "description": "A sophisticated invitation for fundraising events."
+      },
+      {
+        "id": "23",
+        "name": "Nonprofit Event Invitation",
+        "category": "Charity Event",
+        "image": "/Images/Templates/charity3.jpeg",
+        "description": "An invitation template for nonprofit events and initiatives."
+      },
+      {
+        "id": "24",
+        "name": "Auction Gala Invitation",
+        "category": "Charity Event",
+        "image": "/Images/Templates/charity4.jpeg",
+        "description": "A classy invitation for an auction gala fundraiser."
+      },
+      {
+        "id": "25",
+        "name": "Volunteer Event Invitation",
+        "category": "Charity Event",
+        "image": "/Images/Templates/charity5.jpeg",
+        "description": "A simple and elegant invite for volunteer and charity events."
+      }
+    ],
+    "registrations": [
+      {
+        "id": "cefc",
+        "brideName": "anu",
+        "groomName": "Ram",
+        "date": "2025-02-18",
+        "place": "sivakasi",
+        "time": "02:39",
+        "document": "No file uploaded"
+      }
+    ]
+  }

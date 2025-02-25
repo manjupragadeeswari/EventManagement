@@ -1,0 +1,118 @@
+/* Basic styling for the search result page */
+.search-results-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #efe0e3;
+}
+
+.search-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f3f6fa;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.search-input {
+  padding: 10px;
+  font-size: 16px;
+  width: 35%;
+  border: 1px solid #caa7a7;
+  border-radius: 5px;
+ margin-left: 850px;
+}
+
+.back-btn {
+  padding: 8px 15px;
+  font-size: 16px;
+  background-color: #ff8fa3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+  margin-top: 15px;
+
+}
+
+.search-results-main {
+  text-align: center;
+}
+
+.templates-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+  margin-top: 40px;
+}
+
+.template-card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.template-card:hover {
+  transform: scale(1.05);
+}
+
+.template-img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.template-card h3 {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.large-image-container {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.large-image {
+  width: 70%;
+  max-width: 600px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+
+.register-btn {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px 20px;
+  background-color: #a4133c; 
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 1000; /* Ensure it's on top */
+  transition: background-color 0.2s ease-in-out;
+}
+
+.register-btn:hover {
+  background-color: #d391a4;
+  color:#a4133c;
+  font-weight: bold;
+}
+
+h1{
+  margin-top: 20px;
+  color:#c35c6f
+}
